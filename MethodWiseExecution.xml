@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/sohai/IdeaProjects/TestNGProjectDeloitte">
+        <classes>
+            <class name="testng.Class1">
+                <methods>
+                    <include name="cmyFirstTest"/>
+                    <include name="bsecondTest"/>
+                    <include name="anotherTest"/>
+                    <include name="dmyFirstTest"/>
+                </methods>
+            </class>
+            <class name="testng.Class2">
+                <methods>
+                    <include name="myFirstTest"/>
+                    <include name="mySecondTest"/>
+                </methods>
+            </class>
+            <class name="testng.Class3">
+                <methods>
+                    <include name="myTest"/>
+                    <include name="secondTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
